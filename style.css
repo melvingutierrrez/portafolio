@@ -1,0 +1,235 @@
+                                                                    * {
+                                                                        font-family: Arial, Helvetica, sans-serif;
+                                                                        font-weight: 400;
+                                                                        font-size: 32px;
+                                                                        line-height: 150%;
+                                                                    }
+                                                                    
+                                                                    main {
+                                                                        display: flex;
+                                                                        margin-bottom: 50px;
+                                                                        margin-left: 80px;
+                                                                    }
+                                                                    
+                                                                    .logo {
+                                                                        padding-top: 10px;
+                                                                        margin-left: 10px;
+                                                                        width: 5%;
+                                                                    }
+                                                                    
+                                                                    .left {
+                                                                        width: 800px;
+                                                                        height: 300px;
+                                                                    }
+                                                                    
+                                                                    section1 {
+                                                                        width: 75%;
+                                                                        height: 80%;
+                                                                    }
+                                                                    
+                                                                    #inputtexto {
+                                                                        border: solid;
+                                                                        color: #0A3871;
+                                                                        margin-top: 20px;
+                                                                        border-radius: 24px;
+                                                                        text-transform: lowercase;
+                                                                        width: 90%;
+                                                                        height: 100%;
+                                                                        left: 12%;
+                                                                        top: 15%;
+                                                                        border: none;
+                                                                        font-family: "Inter";
+                                                                        font-style: normal;
+                                                                        font-weight: 400;
+                                                                        font-size: 32px;
+                                                                        line-height: 150%;
+                                                                        background-color: #f3f5fc;
+                                                                        margin: auto;
+                                                                        resize: none;
+                                                                    }
+                                                                    
+                                                                    .left-button p {
+                                                                        font-size: 20px;
+                                                                    }
+                                                                    
+                                                                    placeholder {
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    p {
+                                                                        margin-top: 5px;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    #btn-encriptar {
+                                                                        background-color: #0A3871;
+                                                                        border: 1px solid #0A3871;
+                                                                        border-radius: 24px;
+                                                                        color: white;
+                                                                        cursor: pointer;
+                                                                        margin-top: 80px;
+                                                                        height: 67px;
+                                                                        width: 328px;
+                                                                        margin-left: 15px;
+                                                                    }
+                                                                    
+                                                                    #btn-desencriptar {
+                                                                        background-color: #D3DFe8;
+                                                                        border: 1px solid #0A3871;
+                                                                        border-radius: 24px;
+                                                                        color: #0A3871;
+                                                                        cursor: pointer;
+                                                                        height: 67px;
+                                                                        margin-left: 20px;
+                                                                        width: 328px;
+                                                                    }
+                                                                    
+                                                                    .section2 {
+                                                                        width: 35%;
+                                                                        height: 450px;
+                                                                        background: white;
+                                                                        background-color: white;
+                                                                        background-repeat: no-repeat;
+                                                                        border: none;
+                                                                        border-radius: 24px;
+                                                                        color: #0A3871;
+                                                                        margin-left: 98px;
+                                                                        margin-right: 20px;
+                                                                        padding-left: 20px;
+                                                                        position: static;
+                                                                        box-sizing: border-box;
+                                                                        overflow: hidden;
+                                                                    }
+                                                                    
+                                                                    .texto {
+                                                                        text-align: center;
+                                                                        background-color: white;
+                                                                    }
+                                                                    
+                                                                    #texto2 {
+                                                                        position: relative;
+                                                                        border: none;
+                                                                        border-radius: 24px;
+                                                                        height: 335px;
+                                                                        width: 90%;
+                                                                        margin-top: 15px;
+                                                                        resize: none;
+                                                                    }
+                                                                    
+                                                                    #copiar {
+                                                                        border: 1px solid #0A3871;
+                                                                        border-radius: 24px;
+                                                                        color: #0A3871;
+                                                                        cursor: pointer;
+                                                                        height: 67px;
+                                                                        margin-left: 85px;
+                                                                        margin-top: 5px;
+                                                                        position: fixed;
+                                                                        width: 10%;
+                                                                    }
+                                                                    
+                                                                    .ocultar {
+                                                                        display: none;
+                                                                    }
+                                                                    
+                                                                    footer {
+                                                                        background-color: aquamarine;
+                                                                        margin-top: 5px;
+                                                                        margin-bottom: 0px;
+                                                                        width: 100%;
+                                                                        height: 10%;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    footer p {
+                                                                        font-size: 20px;
+                                                                    }
+                                                                    /* Responsive design */
+                                                                    
+                                                                    @media (max-width: 480px) {
+                                                                        body {
+                                                                            background-color: red;
+                                                                        }
+                                                                        main {
+                                                                            width: auto;
+                                                                            height: auto;
+                                                                            flex-direction: row;
+                                                                            display: flex;
+                                                                        }
+                                                                        .logo {
+                                                                            margin: 20px auto 10px 50px;
+                                                                        }
+                                                                        .section1 {
+                                                                            width: 100%;
+                                                                        }
+                                                                        .section2 {
+                                                                            width: 700px;
+                                                                            height: 100%;
+                                                                            left: 2%;
+                                                                            top: 700px;
+                                                                            position: absolute;
+                                                                        }
+                                                                        .inputtexto {
+                                                                            width: 80%;
+                                                                            height: 60%;
+                                                                            left: 10%;
+                                                                            top: 5%;
+                                                                        }
+                                                                        #btn-encriptar {
+                                                                            display: inline;
+                                                                        }
+                                                                        #btn-desencriptar {
+                                                                            display: inline;
+                                                                        }
+                                                                        #copiar {
+                                                                            margin-top: auto;
+                                                                        }
+                                                                        footer {
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                        }
+                                                                    }
+                                                                    
+                                                                    @media (max-width: 800px) {
+                                                                        body {
+                                                                            background-color: red;
+                                                                        }
+                                                                        main {
+                                                                            width: auto;
+                                                                            height: auto;
+                                                                            flex-direction: row;
+                                                                            display: flex;
+                                                                        }
+                                                                        .logo {
+                                                                            margin: 20px auto 10px 50px;
+                                                                        }
+                                                                        .section1 {
+                                                                            width: 100%;
+                                                                        }
+                                                                        .section2 {
+                                                                            width: 700px;
+                                                                            height: 100%;
+                                                                            left: 2%;
+                                                                            top: 700px;
+                                                                            position: absolute;
+                                                                        }
+                                                                        .inputtexto {
+                                                                            width: 80%;
+                                                                            height: 60%;
+                                                                            left: 10%;
+                                                                            top: 5%;
+                                                                        }
+                                                                        #btn-encriptar {
+                                                                            display: inline;
+                                                                        }
+                                                                        #btn-desencriptar {
+                                                                            display: inline;
+                                                                        }
+                                                                        #copiar {
+                                                                            margin-top: auto;
+                                                                        }
+                                                                        footer {
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                        }
+                                                                    }
